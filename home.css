@@ -1,0 +1,87 @@
+header {
+    position: relative;
+    max-width: 1900px;
+    margin: 05px auto;
+    padding: 10px;
+    background: green;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0.2);
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    background-attachment: fixed;
+}
+
+.logo {
+    color: brown;
+    height: 50px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    background: lightblue;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+
+nav ul li a.active,
+nav ul li a:hover {
+    background: #069370;
+    color: #fff;
+    transition: 0.10s;
+}
+
+#content {
+    text-align: center;
+    padding-top: 25%;
+
+}
+
+
+h2 {
+    margin-top: 160px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+
+}
+
+h5 {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

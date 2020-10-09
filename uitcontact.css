@@ -1,0 +1,176 @@
+header {
+    position: relative;
+    max-width: 2000px;
+    margin: 05px auto;
+    padding: 10px;
+    background: magenta;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0.2);
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    background-attachment: fixed;
+}
+
+.logo {
+    color: brown;
+    height: 50px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    background: lightblue;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+
+nav ul li a.active,
+nav ul li a:hover {
+    background: #069370;
+    color: #fff;
+    transition: 0.10s;
+}
+
+
+
+.form {
+    margin-top: 150px;
+}
+
+.form-box {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin-left: 60%;
+    background: transparent;
+    opacity: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    left: -350px;
+    box-shadow: 10px 10px 10px 0px #290d0d;
+
+    color: yellow;
+
+
+}
+
+
+.button-box {
+    display: block;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    color: lightskyblue;
+    width: 30%;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: black;
+}
+
+
+
+
+
+#btn {
+    color: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, lightblue, lightblue);
+    border-radius: 10px;
+    transition: .5s;
+
+
+}
+
+
+
+.input-group {
+    top: 190px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    margin-left: 50px;
+
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    position: relative;
+    top: -100px;
+    background: transparent;
+    color: black;
+}
+
+.submit-btn {
+
+    width: 35%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, lightblue, lightblue);
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+}
+
+
+.form {
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+#login {}

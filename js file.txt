@@ -1,0 +1,49 @@
+function login1() {
+    var x, y, n, text, text2;
+    y = document.getElementById("num").value;
+    n = y.length;
+    if (n < 10 || n > 10) {
+        alert("Phone no must be of 10 digits ");
+    }
+    x = document.getElementById("numb").value;
+    if (isNaN(x) || x > 150) {
+        text = "Age must be btw 0-150";
+        alert(text);
+    }
+    var alph = /^[A-Za-z]+$/;
+    if (document.getElementById("nm").value.match(alph)) {
+
+        return true;
+    } else {
+        alert("Please input alphabet characters only for name");
+        return false;
+    }
+}
+
+function theme1() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("Slides");
+    if (n > x.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = x.length
+    }
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex - 1].style.display = "block";
+}
